@@ -1,0 +1,27 @@
+       /*
+       1. Create a String variable called "id" with your id
+       2. Create a String variable called "full_name" with your full name     
+       3. Create a String variable called "address" with your address  
+       4. create a String variable called "details" with id + full_name + address + details    
+       5. print details to string
+       6. add spaces between id and full_name and address and details ...
+       */
+            String id = "322110362";  
+            String full_name = " Yelena Ladygin";
+            String address = "Har Ha Tzofim Str 17/3 Rehovot";
+            String details = (id+" " +full_name+ " "+address);   
+            System.out.println(details);
+
+     /*   7. *etgar:
+        create String fname variable and read from the keyboard the first name of the user
+        create String lname variable and read from the keyboard the last name of the user
+        then print the user first_name and last name in one line...
+    */
+    
+        java.util.Scanner name = new Scanner(System.in);
+        System.out.println( "Hi user");
+        System.out.println("Input your First name, please");
+        String fname = name.nextLine();
+        System.out.println("Input your Last name, please");
+        String lname = name.nextLine();
+        System.out.println(fname+ " " + lname);
